@@ -10,6 +10,9 @@ using jlmie
 # ╔═╡ f13d1143-8a8b-42ea-8962-d2a6303d4e79
 using Plots
 
+# ╔═╡ 952fdfe3-c304-476e-9e6e-71d6654c631f
+md"Implementation of Mie scattering from: [https://github.com/Hinamoooon/jlmie](https://github.com/Hinamoooon/jlmie)"
+
 # ╔═╡ 0394e814-c5c9-405a-8912-539ddb9ae9dd
 nmat = 1.5  # refractive index of a sphere
 
@@ -140,6 +143,7 @@ mierefidx = plot(dp.*1e6,
 # ╔═╡ Cell order:
 # ╠═cba7e42f-9a13-4058-a055-51b190be061f
 # ╠═f13d1143-8a8b-42ea-8962-d2a6303d4e79
+# ╠═952fdfe3-c304-476e-9e6e-71d6654c631f
 # ╠═0394e814-c5c9-405a-8912-539ddb9ae9dd
 # ╠═bd412ab5-d63d-4a24-9578-9728d5175c77
 # ╠═06400c78-e9f8-4c5e-9ad1-7f763e96b508
